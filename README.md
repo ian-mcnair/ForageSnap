@@ -40,5 +40,6 @@ Contains our Applied Machine Learning Intensive final project development.
 
 ## Current Application States
 ![current look of mobile application](https://github.com/ian-mcnair/ForageSnap/blob/master/mapp_current_state.png){:height="50%" width="50%"}
+<a href="Mobile Application"><img src="https://github.com/ian-mcnair/ForageSnap/blob/master/mapp_current_state.png" align="left" height="1000" width="800" ></a>
 
 
