@@ -39,6 +39,6 @@ Contains our Applied Machine Learning Intensive final project development.
 - [ ] Make web app more aesthetic
 
 ## Current Application States
-<a href="Mobile Application"><img src="https://github.com/ian-mcnair/ForageSnap/blob/master/mapp_current_state.png" align="left" height="500" width="1000" ></a>
+<a href="Mobile Application"><img src="https://github.com/ian-mcnair/ForageSnap/blob/master/mapp_current_state.png" align="left" height="1000" width="500" ></a>
 
 
