@@ -16,6 +16,8 @@
         android:roundIcon="@mipmap/foragesnap_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".WarningLabel"></activity>
+        <activity android:name=".tflite.WarningLabel" />
         <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,7 +28,7 @@
         <activity
             android:name=".ClassifierActivity"
             android:label="@string/activity_name_classification"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
