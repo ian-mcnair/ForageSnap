@@ -1,10 +1,12 @@
-<a href="Loading Page"><img src="https://github.com/ian-mcnair/ForageSnap/blob/master/foragesnap.png" align="right" height="250" width="250" ></a>
-# ForageSnap
-Contains our Applied Machine Learning Intensive final project development.
+<a href="Loading Page"><img src="https://github.com/ian-mcnair/ForageSnap/blob/master/foragesnap.png" align="right" height="300" width="300" ></a>
+# ForageSNAP
+ForageSNAP is the name of our team's final project for Google's Applied Machine Learning Intensive. ForageSNAP is an application that utilizes MobileNetV2, developed by Google, in order to create a lightweight model using Keras, which is ported to Tensorflow Lite, and inserted into the java based application. 
+
+The overall final goal of ForageSNAP is to allow people to have an easy to use app which identifies edible and not edible plants. Before that occurs, the model is first being tested to see whether it can identify harmfull and harmless plants to a relative level of success. Harmless vs Harmfull is much more general than edible vs non-edible, so we decided this would be a good place to start.
 
 ## Our goals are to:
-1. Have a complete mobile application to be published on both App stores.
-2. Snap pictures of plants/foliage and determine if they are edible or not.
+1. Have a complete mobile application to be published on the Google Play Store.
+2. Create a deep learning model and application that easily tells the users if a plant is edible or not.
 
 ## TO-DO
 ### Data
