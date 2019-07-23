@@ -1,4 +1,4 @@
-<a href="Loading Page"><img src="https://github.com/ian-mcnair/ForageSnap/blob/master/foragesnap.png" align="right" height="300" width="300" ></a>
+<a href="Loading Page"><img src="https://github.com/ian-mcnair/ForageSnap/blob/master/foragesnap.png" align="right" height="400" width="400" ></a>
 # ForageSNAP
 ForageSNAP is the name of our team's final project for Google's Applied Machine Learning Intensive. ForageSNAP is an application that utilizes MobileNetV2, developed by Google, in order to create a lightweight model using Keras, which is ported to Tensorflow Lite, and inserted into the java based application. 
 
