@@ -286,8 +286,31 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="@string/model"
+            android:text="@string/device"
             android:textColor="@android:color/black" />
+
+        <Spinner
+            android:id="@+id/device_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:entries="@array/devices"
+            android:prompt="@string/device" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/model"
+            android:textColor="@android:color/black"
+            android:visibility="invisible"/>
 
         <Spinner
             android:id="@+id/model_spinner"
@@ -296,27 +319,8 @@
             android:layout_marginTop="10dp"
             android:layout_alignParentRight="true"
             android:entries="@array/models"
-            android:prompt="@string/model" />
+            android:prompt="@string/model"
+            android:visibility="invisible"/>
     </RelativeLayout>
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:text="@string/device"
-            android:textColor="@android:color/black" />
-
-        <Spinner
-            android:id="@+id/device_spinner"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_alignParentRight="true"
-            android:entries="@array/devices"
-            android:prompt="@string/device" />
-    </RelativeLayout>
 </LinearLayout>

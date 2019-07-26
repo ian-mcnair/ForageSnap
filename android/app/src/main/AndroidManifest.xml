@@ -11,13 +11,11 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/foragesnap"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/activity_name_classification"
-        android:roundIcon="@mipmap/foragesnap_round"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".WarningLabel"></activity>
-        <activity android:name=".tflite.WarningLabel" />
         <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,10 +23,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".WarningActivity">
+        </activity>
         <activity
             android:name=".ClassifierActivity"
             android:label="@string/activity_name_classification"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

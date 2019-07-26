@@ -39,6 +39,8 @@ import androidx.annotation.UiThread;
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+
+import android.util.Log;
 import android.util.Size;
 import android.view.Surface;
 import android.view.View;
@@ -106,10 +108,13 @@ public abstract class CameraActivity extends AppCompatActivity
   @Override
   protected void onCreate(final Bundle savedInstanceState) {
     LOGGER.d("onCreate " + this);
+    Log.d("buttonlog", "camera before create");
     super.onCreate(null);
+    Log.d("buttonlog", "camera after create");
     getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
     setContentView(R.layout.activity_camera);
+    Log.d("buttonlog", "camera: after set content view");
     /*
     Toolbar toolbar = findViewById(R.id.toolbar);
     setSupportActionBar(toolbar);
@@ -117,10 +122,15 @@ public abstract class CameraActivity extends AppCompatActivity
     */
 
     if (hasPermission()) {
+      Log.d("buttonlog", "has permission");
       setFragment();
+      Log.d("buttonlog", "Set the fragment.");
     } else {
+      Log.d("buttonlog", "no has permission");
       requestPermission();
     }
+
+    Log.d("buttonlog", "Did that if else block.");
 
     threadsTextView = findViewById(R.id.threads);
     plusImageView = findViewById(R.id.plus);
@@ -131,6 +141,8 @@ public abstract class CameraActivity extends AppCompatActivity
     gestureLayout = findViewById(R.id.gesture_layout);
     sheetBehavior = BottomSheetBehavior.from(bottomSheetLayout);
     bottomSheetArrowImageView = findViewById(R.id.bottom_sheet_arrow);
+
+    Log.d("buttonlog", "made those guys");
 
     ViewTreeObserver vto = gestureLayout.getViewTreeObserver();
     vto.addOnGlobalLayoutListener(
@@ -201,6 +213,8 @@ public abstract class CameraActivity extends AppCompatActivity
     model = Model.valueOf(modelSpinner.getSelectedItem().toString().toUpperCase());
     device = Device.valueOf(deviceSpinner.getSelectedItem().toString());
     numThreads = Integer.parseInt(threadsTextView.getText().toString().trim());
+
+    Log.d("buttonlog", "Leaving onCreate.");
   }
 
   protected int[] getRgbBytes() {
@@ -422,9 +436,13 @@ public abstract class CameraActivity extends AppCompatActivity
   }
 
   private String chooseCamera() {
+    Log.d("buttonlog", "in chooseCamera");
     final CameraManager manager = (CameraManager) getSystemService(Context.CAMERA_SERVICE);
+    Log.d("buttonlog", "after that final thingy, before try");
     try {
+      Log.d("buttlog", "in try, before for");
       for (final String cameraId : manager.getCameraIdList()) {
+        Log.d("buttonlog", "in try / for loop");
         final CameraCharacteristics characteristics = manager.getCameraCharacteristics(cameraId);
 
         // We don't use a front facing camera in this sample.
@@ -451,6 +469,7 @@ public abstract class CameraActivity extends AppCompatActivity
         return cameraId;
       }
     } catch (CameraAccessException e) {
+      Log.d("buttonlog", "caught");
       LOGGER.e(e, "Not allowed to access camera");
     }
 
@@ -458,7 +477,9 @@ public abstract class CameraActivity extends AppCompatActivity
   }
 
   protected void setFragment() {
+    Log.d("buttonlog", "in setfragement");
     String cameraId = chooseCamera();
+    Log.d("buttonlog", "back in setFragment");
 
     Fragment fragment;
     if (useCamera2API) {

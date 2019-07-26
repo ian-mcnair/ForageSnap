@@ -3,6 +3,9 @@
     <color name="colorPrimary">#98999b</color>
     <color name="colorPrimaryDark">#404041</color>
     <color name="colorAccent">#d2d0d1</color>
+    <color name="darkGreen">#007d12</color>
+    <color name="lightGreen">#68e171</color>
+    <color name="PrimaryGreen">#2dae43</color>
 
     <color name="semi_transparent">#66000000</color>
 </resources>
