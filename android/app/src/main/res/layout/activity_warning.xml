@@ -46,7 +46,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.42"
-            app:srcCompat="@drawable/mushroom" />
+            app:srcCompat="@drawable/legalshroom" />
 
         <TextView
             android:id="@+id/warningtext"
@@ -65,6 +65,29 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/avoidthese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksandregular"
+            android:gravity="center|left"
+            android:text="@string/steer_clear"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            tools:layout_editor_absoluteX="29dp"
+            tools:layout_editor_absoluteY="456dp"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/avoidthese1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/avoid_these"
+            android:textColor="@android:color/black"
+            tools:layout_editor_absoluteX="162dp"
+            tools:layout_editor_absoluteY="437dp"
+            android:visibility="invisible"/>
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

@@ -61,9 +61,7 @@
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="foregroundImage" value="C:\Users\khgro\examples\lite\examples\image_classification\android\app\src\main\res\drawable\foragesnapcroppedrebrand.png" />
-                                      <entry key="legacyIconShape" value="CIRCLE" />
-                                      <entry key="webIconShape" value="CIRCLE" />
+                                      <entry key="foregroundImage" value="C:\Users\khgro\examples\lite\examples\image_classification\android\app\src\main\res\drawable\newlogo.jpg" />
                                     </map>
                                   </option>
                                 </PersistentState>

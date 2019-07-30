@@ -23,12 +23,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".WarningActivity">
-        </activity>
+        <activity android:name=".WarningActivity"></activity>
         <activity
             android:name=".ClassifierActivity"
             android:label="@string/activity_name_classification"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
     </application>
-
 </manifest>
