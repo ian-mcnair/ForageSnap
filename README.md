@@ -42,5 +42,4 @@ The overall final goal of ForageSNAP is to allow people to have an easy to use a
 - [ ] Make web app more aesthetic
 
 ## Current Application States
-<a href="Loading Page"><img src="https://github.com/ian-mcnair/ForageSnap/blob/master/Screenshot_20190722-221049.png" align="left" height="500" width="250" ></a>
-<a href="Live Application"><img src="https://github.com/ian-mcnair/ForageSnap/blob/master/Screenshot_20190722-103324.png" align="left" height="500" width="250" ></a>
+<a href="Loading Page"><img src="https://github.com/ian-mcnair/ForageSnap/blob/master/demo_video.gif" align="left" height="500" width="250" ></a>
