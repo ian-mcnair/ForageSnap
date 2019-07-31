@@ -41,5 +41,5 @@ The overall final goal of ForageSNAP is to allow people to have an easy to use a
 - [ ] Upload ForageSnap webapp ready model
 - [ ] Make web app more aesthetic
 
-## Current Application States
-<a href="Loading Page"><img src="https://github.com/ian-mcnair/ForageSnap/blob/master/demo_video.gif" align="left" height="500" width="250" ></a>
+## Live Demo
+<a href="Loading Page"><img src="https://github.com/ian-mcnair/ForageSnap/blob/master/demo_video.gif" align="center" height="500" width="250" ></a>
