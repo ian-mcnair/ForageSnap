@@ -1,45 +1,14 @@
-0: american beautyberry
-0: american persimmon
-0: bastard cabbage
-0: goldenrods
-0: lamiales fam
-0: oxalis debilis
-0: porcelain berries
-0: rosemary
-0: smilax
-0: southern mag
-0: spotted wintergreen
-1: atl poison oak
-1: azalea
-1: bittersweet nightshade
-1: castor bean
-1: chinese lantern
-1: choke berries
-1: devils ivy
-1: dogbane fam
-1: foxglove
-1: heavenly bamboo
-1: holly
-1: indian pink
-1: jack in the pulpit
-1: jewelweed
-1: jimsonweed
-1: larkspurs
-1: laurel fam
-1: mayapple
-1: monkshood
-1: morning glory
-1: peacock flower
-1: philodendros fam
-1: poison hem
-1: poison ivy
-1: poison sumac
-1: pokeweed fam
-1: poppy fam
-1: red spider lily
-1: redbuckeye
-1: rosary pea
-1: virginia creeper
-1: water hemlock
-1: yellowroot
-1: yew fam
+Edible: Alligator Juniper
+Edible: Asparagus
+Edible: Bamboo
+Edible: Berries
+Edible: Dandelion
+Edible: Pecans
+Edible: Rosemary
+Edible: Southern Magnolia
+Harmful: Laurel Family
+Harmful: Nightshade
+Harmful: Poison Ivy
+Harmful: Poison Oak
+Harmful: Poison Sumac
+Harmful: Yew
