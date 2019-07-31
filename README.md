@@ -20,15 +20,15 @@ The overall final goal of ForageSNAP is to allow people to have an easy to use a
 - [x] Create model using MobileNetV2 with simple classifiers for testing
 - [x] Create model with FastAI (ResNet50+) using more data/classes
 - [x] Create mobile ready model with 5+ classes
-- [x] Create mobile model with 20+ classes
 - [x] Create mobile model with all desired classes
-- [ ] Create webapp ready mdoel with all desired classes
+- [x] Create webapp ready model with all desired classes
 
 ### Mobile Application
 - [x] Go through TFLite tutorial and get working base image classification app
 - [x] Modify app - Loading Screen
 - [x] Modify app - Banner
 - [x] Modify app - "drag up" information
+- [x] Modify app - Notice Screen
 - [x] Modify app - Simple ForageSnap Model
 - [x] Modify app - More complex ForageSnap Model (30 - 50% of data)
 - [x] Modify app - Final ForageSnap model (90%+ of Data)
@@ -38,12 +38,13 @@ The overall final goal of ForageSNAP is to allow people to have an easy to use a
 - [x] Create base Flask App + Server
 - [x] Get upload image button working
 - [x] Use pretrained model to predict
-- [ ] Upload ForageSnap webapp ready model
-- [ ] Make web app more aesthetic
+- [x] Upload ForageSnap webapp ready model
+- [x] Make web app more aesthetic
+- [ ] Deploy web app
 
 ## Current State of Mobile Application
 <a href="Splash Screen"><img src="https://github.com/ian-mcnair/ForageSnap/blob/master/splashscreen.png" align="left" height="500" width="250" ></a>
-<a href="Warning Screen"><img src="https://github.com/ian-mcnair/ForageSnap/blob/master/warningscreen.png" align="center" height="500" width="250" ></a>
+<a href="Warning Screen"><img src="https://github.com/ian-mcnair/ForageSnap/blob/master/warningscreen.png" align="middle" height="500" width="250" ></a>
 <a href="Camera Screen"><img src="https://github.com/ian-mcnair/ForageSnap/blob/master/camerascreen.png" align="right" height="500" width="250" ></a>
 ## Live Demo
-<a href="Live Demo"><img src="https://github.com/ian-mcnair/ForageSnap/blob/master/demo_video.gif" align="center" height="500" width="250" ></a>
+<a href="Live Demo"><img src="https://github.com/ian-mcnair/ForageSnap/blob/master/demo_video.gif" align="left" height="500" width="250" ></a>
