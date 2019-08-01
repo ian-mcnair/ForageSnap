@@ -48,4 +48,4 @@ The overall final goal of ForageSNAP is to allow people to have an easy to use a
 <a href="Camera Screen"><img src="https://github.com/ian-mcnair/ForageSnap/blob/master/cameraactivity.png" align="right" height="500" width="250" ></a>
 ## Live Demo
 <a href="Live Demo"><img src="https://github.com/ian-mcnair/ForageSnap/blob/master/live_demo.gif" align="left" height="500" width="250" ></a>
-<a href="Live Demo"><img src="https://github.com/ian-mcnair/ForageSnap/blob/master/live_demo2.gif" height="500" width="250" ></a>
+<a href="Live Demo"><img src="https://github.com/ian-mcnair/ForageSnap/blob/master/live_demo2.gif" align="right" height="500" width="250" ></a>
