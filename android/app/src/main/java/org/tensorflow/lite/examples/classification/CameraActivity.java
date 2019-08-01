@@ -543,42 +543,39 @@ public abstract class CameraActivity extends AppCompatActivity
   protected void showResultsInBottomSheet(List<Recognition> results) {
     if (results != null && results.size() >= 3) {
       Recognition recognition = results.get(0);
-      if (recognition != null && recognition.getConfidence() > .3) {
+      if (recognition != null && recognition.getConfidence() > .08) {
         if (recognition.getTitle() != null) recognitionTextView.setText(recognition.getTitle());
         if (recognition.getConfidence() != null)
           recognitionValueTextView.setText(
                   String.format("%.0f", (100 * recognition.getConfidence())) + "%");
-      }
-        else {
+      } else {
         recognitionTextView.setText("Unable to determine");
         recognitionValueTextView.setText(String.format(" "));
       }
 
       Recognition recognition1 = results.get(1);
-      if (recognition1 != null && recognition1.getConfidence() > .3) {
+      if (recognition1 != null && recognition1.getConfidence() > .08) {
         if (recognition1.getTitle() != null) recognition1TextView.setText(recognition1.getTitle());
         if (recognition1.getConfidence() != null)
           recognition1ValueTextView.setText(
                   String.format("%.0f", (100 * recognition1.getConfidence())) + "%");
-      }
-      else {
+      } else {
         recognition1TextView.setText("Unable to determine");
         recognition1ValueTextView.setText(String.format(" "));
       }
 
 
       Recognition recognition2 = results.get(2);
-      //if (recognition2 != null && recognition2.getConfidence() > .1) {
-        //if (recognition2.getTitle() != null) recognition2TextView.setText(recognition2.getTitle());
-        //if (recognition2.getConfidence() != null)
-          //recognition2ValueTextView.setText(
-                  //String.format("%.0f", (100 * recognition2.getConfidence())) + "%");
-      }
-      //else {
+      if (recognition2 != null && recognition2.getConfidence() > .08) {
+        if (recognition2.getTitle() != null) recognition2TextView.setText(recognition2.getTitle());
+        if (recognition2.getConfidence() != null)
+          recognition2ValueTextView.setText(
+                  String.format("%.0f", (100 * recognition2.getConfidence())) + "%");
+      } else {
         recognition2TextView.setText(" ");
         recognition2ValueTextView.setText(String.format(" "));
-
-
+      }
+    }
     }
 
 
