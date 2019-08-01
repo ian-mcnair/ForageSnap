@@ -1,0 +1,14 @@
+Edible: Alligator Juniper
+Edible: Asparagus
+Edible: Bamboo
+Edible: Berries
+Edible: Dandelion
+Edible: Pecans
+Edible: Rosemary
+Edible: Southern Magnolia
+Harmful: Laurel Family
+Harmful: Nightshade
+Harmful: Poison Ivy
+Harmful: Poison Oak
+Harmful: Poison Sumac
+Harmful: Yew
