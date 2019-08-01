@@ -44,8 +44,8 @@ The overall final goal of ForageSNAP is to allow people to have an easy to use a
 
 ## Current State of Mobile Application
 <a href="Splash Screen"><img src="https://github.com/ian-mcnair/ForageSnap/blob/master/splashscreen.png" align="left" height="500" width="250" ></a>
-<a href="Warning Screen"><img src="https://github.com/ian-mcnair/ForageSnap/blob/master/warningscreen.png" height="500" width="250" ></a>
-<a href="Camera Screen"><img src="https://github.com/ian-mcnair/ForageSnap/blob/master/cameraactivity.png" align="right" height="500" width="250" ></a>
+<a href="Warning Screen"><img src="https://github.com/ian-mcnair/ForageSnap/blob/master/warningscreen.png" aligh = "left" height="500" width="250" ></a>
+<a href="Camera Screen"><img src="https://github.com/ian-mcnair/ForageSnap/blob/master/cameraactivity.png" align="left" height="500" width="250" ></a>
 ## Live Demo
 <a href="Live Demo"><img src="https://github.com/ian-mcnair/ForageSnap/blob/master/live_demo.gif" align="left" height="500" width="250" ></a>
-<a href="Live Demo"><img src="https://github.com/ian-mcnair/ForageSnap/blob/master/live_demo2.gif" align="right" height="500" width="250" ></a>
+<a href="Live Demo"><img src="https://github.com/ian-mcnair/ForageSnap/blob/master/live_demo2.gif" align="left" height="500" width="250" ></a>
